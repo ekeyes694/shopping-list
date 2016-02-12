@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Shopping List</title>
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header class="heading">
+        <ul class="top">
+            <li class="cart"><img src="images/cart.png" alt="cart"></li>
+            <li class="title">
+                <h1>Shopping Cart</h1>
+            </li>
+        </ul>
+    </header>
+    <div class="instructions">
+        <p>Add the items you wish to shop for, then you may check them off as you shop and delete them when finished.</p>
+    </div>
+    <section class="input-section">
+        <div class="input">
+            <input id="add-items" type="text" placeholder="Add Items...">
+            <button id="add" type="submit">+</button>
+        </div>
+    </section>
+    <section class="list-section">
+        <div class="items">
+            <ul class="item-list">
+
+            </ul>
+        </div>
+    </section>
+    <footer class="foot">
+        <button type="reset" id="clear-all">Clear</button>
+    </footer>
+    <script src="http://code.jquery.com/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
