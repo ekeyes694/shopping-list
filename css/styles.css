@@ -185,3 +185,23 @@ p {
 /* Responsive styles
 (the very last module in the CSS, contains all the media queries and it is dealing with the compatibility with mobiles and tablets)
 */
+@media only screen and (max-width: 500px) {
+    .input {
+        width: 50%;
+        margin-top: 75px;
+        margin-right: auto;
+        margin-left: 21em;
+    }
+
+    #clear-all {
+        background-color: darkred;
+        color: floralwhite;
+        font-size: 22px;
+        width: 85px;
+        margin-left: 21em;
+        font-weight: 200;
+        border-radius: 1.25em;
+        border-style: none;
+        margin-top: 10px;
+    }
+}
